@@ -36,6 +36,11 @@ function getIcon(name: string) {
   return iconMap[name as IconKey] ?? Sparkles;
 }
 
+function assetUrl(src: string) {
+  if (!src.startsWith("/")) return src;
+  return `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${src}`;
+}
+
 function MotionSection({
   id,
   className,
@@ -274,7 +279,7 @@ function Hero() {
         >
           <div className="relative overflow-hidden rounded-[1.75rem] bg-slate-900 shadow-premium sm:rounded-[2rem]">
             <Image
-              src={data.hero.image}
+              src={assetUrl(data.hero.image)}
               alt={data.hero.imageAlt}
               width={900}
               height={760}
@@ -371,7 +376,7 @@ function Catalog() {
             >
               <div className="relative h-60 overflow-hidden bg-slate-200 sm:h-64">
                 <Image
-                  src={car.image}
+                  src={assetUrl(car.image)}
                   alt={car.name}
                   fill
                   className="object-cover transition duration-700 hover:scale-105"
@@ -442,7 +447,7 @@ function UseCases() {
                 }`}
               >
                 <Image
-                  src={item.image}
+                  src={assetUrl(item.image)}
                   alt={item.title}
                   fill
                   className="object-cover transition duration-700 group-hover:scale-105"
@@ -514,7 +519,7 @@ function Gallery() {
               >
                 <div className={`relative ${heightClass} overflow-hidden`}>
                   <Image
-                    src={item.image}
+                    src={assetUrl(item.image)}
                     alt={item.title}
                     fill
                     className="object-cover transition duration-700 group-hover:scale-105"

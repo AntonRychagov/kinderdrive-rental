@@ -47,8 +47,8 @@
     "badge": "Прокат с доставкой, пультом и проверкой безопасности",
     "title": "Детские электромобили, которые превращают выходной в событие",
     "text": "Привозим чистые, заряженные и проверенные машинки для детей 2-10 лет: домой, в парк, ТЦ или на праздник. Бронь занимает меньше минуты.",
-    "image": "https://www.kidscardealers.com/cdn/shop/articles/KidsCarDealers-423512-Children-Driving-Path-blogbanner1.jpg?v=1762805035&width=1400",
-    "imageAlt": "Дети катаются на белом детском электромобиле",
+    "image": "/images/cars/red-monster-jeep.jpg",
+    "imageAlt": "Красный детский электромобиль Monster Jeep с включенными фарами",
     "availabilityLabel": "Сегодня доступно",
     "availabilityValue": "8 машинок в парке",
     "priceBadge": "800 ₽/час",
@@ -140,14 +140,14 @@
       "text": "Доставим машинку во двор, парк или на набережную. Подберем модель под возраст и темперамент ребенка.",
       "meta": "1-3 часа",
       "icon": "heartHandshake",
-      "image": "https://www.kidscardealers.com/cdn/shop/articles/KidsCarDealers-423512-Children-Driving-Path-blogbanner1.jpg?v=1762805035&width=1100"
+      "image": "/images/cars/red-monster-jeep.jpg"
     },
     {
       "title": "День рождения",
       "text": "Привозим заряженную технику заранее, помогаем с инструктажем и делаем вау-точку для фото.",
       "meta": "2-6 часов",
       "icon": "sparkles",
-      "image": "https://www.kidscardealers.com/cdn/shop/files/rn-image_picker_lib_temp_f14309d5-ddb4-4590-b0b6-2d2e96c3459b.jpg?v=1746719073&width=900"
+      "image": "/images/cars/brabus-g900.jpg"
     },
     {
       "title": "ТЦ и мероприятия",
@@ -164,21 +164,21 @@
   },
   "cars": [
     {
-      "name": "Jeep Adventure 24V",
+      "name": "Monster Jeep 24V",
       "age": "3-8 лет",
       "time": "от 1 часа",
       "price": "от 1 200 ₽",
       "tag": "Хит выходных",
-      "image": "https://www.kidscardealers.com/cdn/shop/files/SmartSelect-20240812_143731_Gallery.jpg?v=1723491677&width=900",
+      "image": "/images/cars/red-monster-jeep.jpg",
       "specs": ["2 места", "пульт", "LED"]
     },
     {
-      "name": "Porsche 911 Mini GT",
+      "name": "Brabus G900 Rocket",
       "age": "4-9 лет",
       "time": "2-6 часов",
       "price": "от 1 600 ₽",
       "tag": "Премиум",
-      "image": "https://cdn.shopify.com/s/files/1/0790/5633/9227/files/KidsCarDealers-423512-Children-Road-Vehicle-image-a1.jpg?v=1762804836",
+      "image": "/images/cars/brabus-g900.jpg",
       "specs": ["спорткар", "24V", "музыка"]
     },
     {
@@ -238,13 +238,13 @@
   ],
   "gallery": [
     {
-      "image": "https://www.kidscardealers.com/cdn/shop/articles/KidsCarDealers-423512-Children-Driving-Path-blogbanner1.jpg?v=1762805035&width=1100",
-      "title": "Семейная прогулка",
+      "image": "/images/cars/red-monster-jeep.jpg",
+      "title": "Monster Jeep на прогулке",
       "height": "h-72 sm:h-80"
     },
     {
-      "image": "https://cdn.shopify.com/s/files/1/0790/5633/9227/files/KidsCarDealers-423512-Children-Road-Vehicle-image-a1.jpg?v=1762804836",
-      "title": "Первые навыки управления",
+      "image": "/images/cars/brabus-g900.jpg",
+      "title": "Brabus G900 Rocket",
       "height": "h-80 sm:h-96"
     },
     {

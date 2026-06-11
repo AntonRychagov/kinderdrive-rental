@@ -15,6 +15,9 @@ const nextConfig = {
   outputFileTracingRoot: __dirname,
   basePath,
   assetPrefix: basePath,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath
+  },
   trailingSlash: true,
   images: {
     unoptimized: true,
